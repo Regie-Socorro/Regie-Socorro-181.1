@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    border: 3px solid #333;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+    border-left: 5px solid #333;
+    padding-left: 10px;
+}
+
+p, blockquote {
+    line-height: 1.6;
+    color: #555;
+}
+
+blockquote {
+    font-style: italic;
+    background: #eee;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-left: 5px solid #555;
+}
